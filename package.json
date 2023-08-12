@@ -23,7 +23,7 @@
 	},
 	"scripts": {
 		"build": "run-s clean build:*",
-		"build:cjs": "babel src --out-dir cjs && echo '{\"type\":\"commonjs\"}' > cjs/package.json",
+		"build:cjs": "babel index.js --out-dir cjs && echo '{\"type\":\"commonjs\"}' > cjs/package.json",
 		"clean": "rm -rf ./cjs",
 		"test": "vitest run --coverage",
 		"lint": "eslint . --ext .cjs,.mjs,.js",
