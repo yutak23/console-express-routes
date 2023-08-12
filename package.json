@@ -1,6 +1,6 @@
 {
 	"name": "console-express-routes",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "yutak23 <yuta.katayama.23+github@gmail.com> (https://github.com/yutak23)",
 	"repository": {
 		"type": "git",
@@ -70,10 +70,6 @@
 		"ts",
 		"esm",
 		"express",
-		"auth",
-		"authorization",
-		"bearer",
-		"token",
-		"parser"
+		"routes"
 	]
 }
