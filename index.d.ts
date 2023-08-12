@@ -8,4 +8,4 @@ import { Application } from 'express';
  */
 declare function consoleExpressRoutes(app: Application): void;
 
-export = consoleExpressRoutes;
+export default consoleExpressRoutes;

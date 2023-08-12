@@ -1,6 +1,8 @@
-import { toUpper } from 'lodash';
+import lodash from 'lodash';
 import Table from 'cli-table3';
 import chalk from 'chalk';
+
+const { toUpper } = lodash;
 
 const methodsColors = {
 	OPTIONS: 'grey',

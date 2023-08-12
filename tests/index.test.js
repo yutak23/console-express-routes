@@ -1,6 +1,6 @@
 import { describe, it } from 'vitest';
 import express from 'express';
-import consoleExpressRoutes from '../src/index.js';
+import consoleExpressRoutes from '../index.js';
 
 describe('Test consoleExpressRoutes', () => {
 	const app = express();

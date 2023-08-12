@@ -22,22 +22,23 @@
 		},
 		{
 			"matchPackageNames": [
-				"@tsconfig/node16",
-				"@tsconfig/recommended",
-				"@types/node",
-				"@typescript-eslint/eslint-plugin",
-				"@typescript-eslint/parser",
+				"chalk",
+				"cli-table3",
+				"express",
+				"lodash",
+				"@babel/cli",
+				"@babel/core",
+				"@babel/preset-env",
+				"@types/express",
+				"@vitest/coverage-v8",
 				"eslint",
 				"eslint-config-airbnb-base",
-				"eslint-config-airbnb-typescript",
 				"eslint-config-prettier",
 				"eslint-plugin-import",
-				"license-checker",
-				"lint-staged",
+				"npm-check-updates",
+				"npm-run-all",
 				"prettier",
-				"simple-git-hooks",
-				"tsconfig-paths",
-				"typescript"
+				"vitest"
 			],
 			"rangeStrategy": "bump"
 		}
