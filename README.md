@@ -34,7 +34,7 @@ app.get('/', (req: Request, res: Response) => {
 ...
 app.listen(3000, () => {
 	console.log('Example app listening on port 3000!');
-    consoleExpressRoutes(app);
+	consoleExpressRoutes(app);
 });
 ```
 
@@ -54,7 +54,7 @@ app.get('/', (req, res) => {
 ...
 app.listen(3000, () => {
 	console.log('Example app listening on port 3000!');
-    consoleExpressRoutes(app);
+	consoleExpressRoutes(app);
 });
 ```
 
@@ -74,7 +74,7 @@ app.get('/', (req, res) => {
 ...
 app.listen(3000, () => {
 	console.log('Example app listening on port 3000!');
-    consoleExpressRoutes(app);
+	consoleExpressRoutes(app);
 });
 ```
 
