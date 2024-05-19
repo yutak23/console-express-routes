@@ -2439,10 +2439,10 @@ cli-table3@^0.6.3:
   optionalDependencies:
     "@colors/colors" "1.5.0"
 
-cli-table3@^0.6.4:
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/cli-table3/-/cli-table3-0.6.4.tgz#d1c536b8a3f2e7bec58f67ac9e5769b1b30088b0"
-  integrity sha512-Lm3L0p+/npIQWNIiyF/nAn7T5dnOwR3xNTHXYEBFBFVPXzCVNZ5lqEC/1eo/EVfpDsQ1I+TX4ORPQgp+UI0CRw==
+cli-table3@^0.6.5:
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/cli-table3/-/cli-table3-0.6.5.tgz#013b91351762739c16a9567c21a04632e449bf2f"
+  integrity sha512-+W/5efTR7y5HRD7gACw9yQjqMVvEMLBHmboM/kPWam+H+Hmyrgjh6YncVKK122YZkXrLudzTuAukUw9FnMf7IQ==
   dependencies:
     string-width "^4.2.0"
   optionalDependencies:
@@ -4048,9 +4048,9 @@ json-buffer@3.0.1:
   integrity sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==
 
 json-parse-even-better-errors@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/json-parse-even-better-errors/-/json-parse-even-better-errors-3.0.0.tgz#2cb2ee33069a78870a0c7e3da560026b89669cf7"
-  integrity sha512-iZbGHafX/59r39gPwVPRBGw0QQKnA7tte5pSMrhWOW7swGsVvVTjmfyAV9pNqk8YGT7tRCdxRu8uzcgZwoDooA==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/json-parse-even-better-errors/-/json-parse-even-better-errors-3.0.2.tgz#b43d35e89c0f3be6b5fbbe9dc6c82467b30c28da"
+  integrity sha512-fi0NG4bPjCHunUJffmLd0gxssIgkNmArMvis4iNah6Owg1MCJjWhEcDLmsK6iGkJq3tHwbDkTlce70/tmXN4cQ==
 
 json-parse-helpfulerror@^1.0.3:
   version "1.0.3"
@@ -4325,7 +4325,14 @@ minimatch@^3.0.4, minimatch@^3.0.5, minimatch@^3.1.1, minimatch@^3.1.2:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimatch@^9.0.0, minimatch@^9.0.1, minimatch@^9.0.3:
+minimatch@^9.0.0:
+  version "9.0.4"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.4.tgz#8e49c731d1749cbec05050ee5145147b32496a51"
+  integrity sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==
+  dependencies:
+    brace-expansion "^2.0.1"
+
+minimatch@^9.0.1, minimatch@^9.0.3:
   version "9.0.3"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.3.tgz#a6e00c3de44c3a542bfaae70abfc22420a6da825"
   integrity sha512-RHiac9mvaRw0x3AYRgDC1CxAP7HTcNrrECeA8YYJeWnpo+2Q5CegtZjaotWTWxDG3UeGA1coE05iH1mPjT/2mg==
@@ -4617,9 +4624,9 @@ npm-registry-fetch@^14.0.0:
     proc-log "^3.0.0"
 
 npm-run-all2@^6.0.0:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/npm-run-all2/-/npm-run-all2-6.1.2.tgz#637b2b804f32dd8cee9e5edf7d47a9fc4ca8bf9d"
-  integrity sha512-WwwnS8Ft+RpXve6T2EIEVpFLSqN+ORHRvgNk3H9N62SZXjmzKoRhMFg3I17TK3oMaAEr+XFbRirWS2Fn3BCPSg==
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/npm-run-all2/-/npm-run-all2-6.2.0.tgz#ac0a893a593e1ab3ef85c5ac3526321d2e3137bd"
+  integrity sha512-wA7yVIkthe6qJBfiJ2g6aweaaRlw72itsFGF6HuwCHKwtwAx/4BY1vVpk6bw6lS8RLMsexoasOkd0aYOmsFG7Q==
   dependencies:
     ansi-styles "^6.2.1"
     cross-spawn "^7.0.3"
