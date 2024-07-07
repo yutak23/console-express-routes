@@ -4142,9 +4142,9 @@ minimatch@^3.0.4, minimatch@^3.0.5, minimatch@^3.1.1, minimatch@^3.1.2:
     brace-expansion "^1.1.7"
 
 minimatch@^9.0.0:
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.4.tgz#8e49c731d1749cbec05050ee5145147b32496a51"
-  integrity sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==
+  version "9.0.5"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-9.0.5.tgz#d74f9dd6b57d83d8e98cfb82133b03978bc929e5"
+  integrity sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==
   dependencies:
     brace-expansion "^2.0.1"
 
@@ -4440,9 +4440,9 @@ npm-registry-fetch@^14.0.0:
     proc-log "^3.0.0"
 
 npm-run-all2@^6.0.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/npm-run-all2/-/npm-run-all2-6.2.0.tgz#ac0a893a593e1ab3ef85c5ac3526321d2e3137bd"
-  integrity sha512-wA7yVIkthe6qJBfiJ2g6aweaaRlw72itsFGF6HuwCHKwtwAx/4BY1vVpk6bw6lS8RLMsexoasOkd0aYOmsFG7Q==
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/npm-run-all2/-/npm-run-all2-6.2.2.tgz#cd98d7c94dfa92e36724a1064609cca7a8991f5f"
+  integrity sha512-Q+alQAGIW7ZhKcxLt8GcSi3h3ryheD6xnmXahkMRVM5LYmajcUrSITm8h+OPC9RYWMV2GR0Q1ntTUCfxaNoOJw==
   dependencies:
     ansi-styles "^6.2.1"
     cross-spawn "^7.0.3"
